@@ -5,7 +5,7 @@ sap.ui.define([
 	], function(jQuery, Controller, JSONModel) {
 	"use strict";
 
-	var TableController = Controller.extend("iotapp .Table", {
+	var TableController = Controller.extend("iotapp.Table", {
 		
 		/**
 		 * onInit : Called when the controller is initialized. 

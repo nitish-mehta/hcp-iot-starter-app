@@ -1,7 +1,7 @@
 <mvc:View controllerName="iotapp.Table" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
     <Table id="idSensorTable" inset="false" items="{
-		path: '/d/results'
-		}">
+        path: '/d/results'
+        }">
         <headerToolbar>
             <Toolbar>
                 <Title text="IOT Data" level="H2" />
@@ -11,8 +11,8 @@
             <Column width="12em">
                 <Text text="Device Info" />
             </Column>
-            <Column minScreenWidth="Tablet" demandPopin="true">
-                <Text text="Reading from Sensor 2" />
+            <Column minScreenWidth="Tablet" demandPopin="true"  hAlign="Right">
+                <Text text="Reading from Sensor 1" />
             </Column>
             <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Right">
                 <Text text="Reading from Sensor 2" />
@@ -24,7 +24,7 @@
         <items>
             <ColumnListItem>
                 <cells>
-                	 <!-- Replace below binding values with your IOT data columnn names -->
+                     <!-- Replace below binding values with your IOT data columnn names -->
                     <ObjectIdentifier title="{G_DEVICE}" text="{GEN_ODATA_ID}" />
                     <Text text="{C_SENSOR1}" />
                     <Text text="{C_SENSOR2}" />
