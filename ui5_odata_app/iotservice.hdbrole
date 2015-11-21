@@ -1,0 +1,4 @@
+role <account_name>.<hana_instance>.<package_name>::iotservice {
+application privilege: <account_name>.<hana_instance>.<package_name>::Basic;
+catalog schema "<schema_id>" : SELECT;
+}
